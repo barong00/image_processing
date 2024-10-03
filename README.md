@@ -34,7 +34,7 @@ This script reads an image and converts its color from RGB to BGR using OpenCV.
 import cv2
 
 # Load the image
-image = cv2.imread('lena.jpg')
+image = cv2.imread('lena.jpg')    # !!!!!!!!!!!!!!!! YOU MUST PASTE FILE LOCATION ON YOUR PC WHİCH YOU WANT TO PROCESS IMAGE.!!!!!!!!!!!!!!!!!
 
 # Convert RGB to BGR
 bgr_image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
